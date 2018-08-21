@@ -3,7 +3,7 @@
 
 int main() //proceso principal
 {
-    int unEntero;
+    /*int unEntero;
     float unDecimal;
     char unCaracter;
     float suma;
@@ -23,7 +23,23 @@ int main() //proceso principal
     printf("El numero es %d\n",unEntero);
     printf("El numero es %.2f\n",unDecimal); //.2 indica que muestra 2 digitos del float
     printf("El numero es %c\n",unCaracter);
-    printf("La suma es %f\n",suma);
+    printf("La suma es %f\n",suma);*/
+
+
+
+    int unNumero;
+    int otroNumero;
+    float division;
+
+    printf("Ingrese un numero: ");
+    scanf("%d",&unNumero);
+    printf("Ingrese otro numero: ");
+    scanf("%d",&otroNumero);
+
+    division = (float)unNumero/otroNumero; // (float) castea. Castear es transformar entre distintos tipos de datos numéricos.
+
+    printf("El resultado es %f",division);
+
 
     return 0;
 }
